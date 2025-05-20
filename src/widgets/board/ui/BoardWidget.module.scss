@@ -1,0 +1,40 @@
+.board-widget {
+  padding: 2rem;
+  max-width: 2000px;
+  margin: 0 auto;
+}
+
+.board-widget__title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  color: var(--text-color);
+  text-align: center;
+}
+
+.fab {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: var(--color-primary);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.18);
+  border: none;
+  cursor: pointer;
+  font-size: 2rem;
+  z-index: 100;
+  transition: background 0.2s, box-shadow 0.2s, transform 0.15s;
+
+  &:hover, &:focus {
+    background: var(--color-primary-dark, #2563eb);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.22);
+    transform: scale(1.07);
+    outline: none;
+  }
+} 

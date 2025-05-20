@@ -1,0 +1,15 @@
+.dnd-grid {
+  width: 100%;
+
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 14px;
+    margin-top: var(--spacing-lg);
+    grid-auto-flow: row dense;
+    width: 100%;
+  }
+
+  // по хорошему надо бы item сделать
+
+}
