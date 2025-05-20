@@ -16,3 +16,7 @@
 - **react-grid-layout** (drag&drop-сетка)
 - **uuid** (уникальные id)
 - **react-icons** (иконки)
+
+## Vercel
+
+https://board-app-chi.vercel.app
